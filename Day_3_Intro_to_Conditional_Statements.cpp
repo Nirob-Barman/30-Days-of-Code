@@ -1,4 +1,6 @@
-#include <stdio.h>
+#include <bits/stdc++.h>
+
+using namespace std;
 
 int main()
 {
@@ -9,4 +11,5 @@ int main()
         printf("Weird\n");
     else if (n % 2 == 0 && ((n >= 2 && n <= 5) || n > 20))
         printf("Not Weird\n");
+    return 0;
 }
