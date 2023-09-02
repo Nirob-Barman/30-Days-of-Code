@@ -1,7 +1,6 @@
-#include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+
+using namespace std;
 
 int main()
 {
@@ -16,6 +15,5 @@ int main()
 
     // TODO: Write a line of code here that prints the contents of input_string to stdout.
     printf("%s\n", input_string);
-
     return 0;
 }
