@@ -1,7 +1,6 @@
-#include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+
+using namespace std;
 
 int main()
 {
@@ -28,6 +27,5 @@ int main()
     // Concatenate and print the String variables on a new line
     // The 's' variable above should be printed first.
     printf("%s%s", s, second_string);
-
     return 0;
 }
